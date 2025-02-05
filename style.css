@@ -50,6 +50,7 @@ main {
 }
 #Hero {
   display: flex;
+  /* height: 100vh; */
   height: calc(100vh - 3rem);
   background-image: url(images/bg1.png);
   background-size: cover;
@@ -130,25 +131,15 @@ main {
   left: calc(93vw - 35px);
   filter: invert() opacity(0.8);
   transition-duration: 150ms;
-  background-color: linear-gradient(
-    to right,
-    rgba(0, 43, 91, 100%),
-    rgba(0, 91, 193, 100%)
-  );
 }
-#to-top a {
-  background-color: linear-gradient(
-    to right,
-    rgba(0, 43, 91, 100%),
-    rgba(0, 91, 193, 100%)
-  );
-}
+
 #to-top:hover {
   filter: invert() opacity(1);
 }
 
 #about-me {
   display: flex;
+  height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -158,7 +149,7 @@ main {
     rgba(0, 91, 193, 100%)
   );
   margin: 0;
-  padding: 2rem 14vw;
+  padding: 3rem 14vw;
 
   #picture-pitch {
     display: flex;
